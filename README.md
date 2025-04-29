@@ -41,13 +41,17 @@ Sudoku w języku C, z obsługą różnych rozmiarów planszy i poziomów trudno�
 
 ## 🚀 Jak uruchomić
 
-1. Przejdź do katalogu `release/`.
-2. Znajdziesz tam plik `Sudoku.exe`.
-3. Uruchom grę:
+1. Przejdź do katalogu `release/`
+2. Uruchom plik `Sudoku.exe`
 
-```bash
-cd release/
-```
-```bash
-./Sudoku.exe
-```
+---
+
+## 🛠️ Środowisko kompilacji
+
+Projekt rozwijany w następującym środowisku:
+- IDE: **CLion 2024.3.4**
+- Toolchain: **Bundled MinGW w64 (wersja 11.0)**
+- CMake: **Bundled version 3.30.5**
+- Kompilator C: **GCC 13.1.0**
+- Debugger: **Bundled GDB 15.2**
+- Standard języka C: **C23**
